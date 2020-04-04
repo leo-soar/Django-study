@@ -404,7 +404,7 @@
 - 请求是指浏览器端通过HTTP协议发送给服务器端的数据
 - 响应是指服务器端接收到请求后做相应的处理后再回复给浏览器端的数据
 
-![请求和向应](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/request_response.png)
+![请求和向应](./images/request_response.png)
 
 ### HTTP 请求
 
@@ -2470,7 +2470,7 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 		admin.site.register(models.Book)  # 将Book类注册为可管理页面
 		```
 
-		![注册Books到管理页面](.\images\QQ截图20200331014320.jpg)
+		![注册Books到管理页面](.\images\QQ20200331014320.jpg)
 
 ### 修改后台Models的展现形式
 
@@ -2487,7 +2487,7 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 	        return "书名" + self.title
 	```
 
-	![书籍列表格式](.\images\QQ截图20200331014438.jpg)
+	![书籍列表格式](.\images\QQ20200331014438.jpg)
 
 ### 模型管理器类
 
@@ -2539,21 +2539,21 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 
 	2. **list_display_links 可以控制list_display中的字段是否应该链接到对象的“更改”页面。**
 
-	![更换超链接](.\images\QQ截图20200331020008.jpg)
+	![更换超链接](.\images\QQ20200331020008.jpg)
 
 	3. **list_filter 设置激活Admin 修改列表页面右侧栏中的过滤器** 
 
-	![](.\images\QQ截图20200331020118.jpg)
+	![](.\images\QQ20200331020118.jpg)
 
 	4. **search_fields 设置启用Admin 更改列表页面上的搜索框。**  
 
-	![](.\images\QQ截图20200331020253.jpg)
+	![](.\images\QQ20200331020253.jpg)
 
 	
 
 	5. **list_editable 设置为模型上的字段名称列表，这将允许在更改列表页面上进行编辑。**
 
-	![](.\images\QQ截图20200331020309.jpg)
+	![](.\images\QQ20200331020309.jpg)
 
 	6. 其它参见<https://docs.djangoproject.com/en/1.11/ref/contrib/admin/>
 
@@ -3169,9 +3169,9 @@ $ python3 manage.py migrate
 
 	- 参考界面: 
 		- 登陆界面
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/login.png)
+			- ![](./images/login.png)
 		- 注册界面
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/reg.png)
+			- ![](./images/reg.png)
 
 - 主页设计规范(在index应用中写代码)
 
@@ -3181,9 +3181,9 @@ $ python3 manage.py migrate
 
 	- 参考界面
 		- 登陆前
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/index1.png)
+			- ![](./images/index1.png)
 		- 登陆后
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/index2.png)
+			- ![](./images/index2.png)
 
 - 云笔记设计规范
 
@@ -3199,17 +3199,17 @@ $ python3 manage.py migrate
 
 		- 添加新笔记界面
 
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/new_note.png)
+			- ![](./images/new_note.png)
 
 		- 显示笔记列表
 
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/list_note.png)
+			- ![](./images/list_note.png)
 
 		- 修改云笔记
 
-			- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/mod_note.png)
+			- ![](./images/mod_note.png)
 
-			![](.\images\cookie和session 登陆.jpg)
+			![](.\images\cookie-session.jpg)
 
 
 
@@ -3432,7 +3432,7 @@ urlpatterns = [
 
 ### 浏览器中的缓存    
 
-![浏览器缓存](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98.png)
+![浏览器缓存](./images/cache.png)
 
 浏览器缓存分类：
 
@@ -3555,9 +3555,9 @@ MIDDLEWARE = [
 
 - 中间件的执行过程
 - 
-- ![](E:\PythonStudy\第三阶段后端\images\20200402012757.jpg)
+- ![](.\images\20200402012757.jpg)
 	
-- ![](E:/PythonStudy/%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5%E5%90%8E%E7%AB%AF/images/middleware.jpeg)
+- ![](./images/middleware.jpeg)
 	
 - 练习
 
