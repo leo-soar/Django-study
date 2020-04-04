@@ -2470,7 +2470,7 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 		admin.site.register(models.Book)  # 将Book类注册为可管理页面
 		```
 
-		![注册Books到管理页面](.\images\QQ20200331014320.jpg)
+		![注册Books到管理页面](.\images\QQ320.jpg)
 
 ### 修改后台Models的展现形式
 
@@ -2487,7 +2487,7 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 	        return "书名" + self.title
 	```
 
-	![书籍列表格式](.\images\QQ20200331014438.jpg)
+	![书籍列表格式](.\images\QQ438.jpg)
 
 ### 模型管理器类
 
@@ -2535,25 +2535,25 @@ s2 = select * from bookstore_book where id='1 or 1=1';
 
 	1. **list_display 去控制哪些字段会显示在Admin 的修改列表页面中。**
 
-		![添加显示字段名](.\images\QQ截图20200331014720.jpg)
+		![添加显示字段名](.\images\QQ720.jpg)
 
 	2. **list_display_links 可以控制list_display中的字段是否应该链接到对象的“更改”页面。**
 
-	![更换超链接](.\images\QQ20200331020008.jpg)
+	![更换超链接](.\images\QQ008.jpg)
 
 	3. **list_filter 设置激活Admin 修改列表页面右侧栏中的过滤器** 
 
-	![](.\images\QQ20200331020118.jpg)
+	![](.\images\QQ118.jpg)
 
 	4. **search_fields 设置启用Admin 更改列表页面上的搜索框。**  
 
-	![](.\images\QQ20200331020253.jpg)
+	![](.\images\QQ253.jpg)
 
 	
 
 	5. **list_editable 设置为模型上的字段名称列表，这将允许在更改列表页面上进行编辑。**
 
-	![](.\images\QQ20200331020309.jpg)
+	![](.\images\QQ309.jpg)
 
 	6. 其它参见<https://docs.djangoproject.com/en/1.11/ref/contrib/admin/>
 
@@ -3555,7 +3555,7 @@ MIDDLEWARE = [
 
 - 中间件的执行过程
 - 
-- ![](.\images\20200402012757.jpg)
+- ![](.\images\qq757.jpg)
 	
 - ![](./images/middleware.jpeg)
 	
@@ -4291,8 +4291,8 @@ mail.send_mail(
 	
 	```
 	
-	![](.\images\20200404014011.jpg)
-	![](.\images\django08.jpg)
+	![](.\images\qq011.jpg)
+	![](.\images\nginx.jpg)
 
 ### 404/500 界面 
 
